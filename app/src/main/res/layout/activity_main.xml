@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.fireking.volleysample.MainActivity">
+
+    <Button
+        android:id="@+id/btnStringRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="String请求"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/btnJsonRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON请求"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/btnImageRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片请求"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJsonRequest"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnCustomRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义请求"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+</LinearLayout>
